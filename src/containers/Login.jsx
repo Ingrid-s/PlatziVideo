@@ -62,7 +62,7 @@ const handleSubmit = event => {
         <div><img src={twitterIcon} /> Inicia sesión con Twitter</div>
       </section>
       <p className="login__container--register">
-        No tienes ninguna cuenta 
+        No tienes ninguna cuenta {' '}
         <Link to='/register'>
           Regístrate
         </Link>
